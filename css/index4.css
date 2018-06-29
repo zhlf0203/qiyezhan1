@@ -1,0 +1,350 @@
+/*
+* @Author: msi-pc
+* @Date:   2018-06-03 10:00:26
+* @Last Modified by:   msi-pc
+* @Last Modified time: 2018-06-28 18:10:48
+*/
+@import url(base.css);
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 120px;
+	background: #151515;
+}
+header ul{
+	width: 1200px;
+	height: 100%;
+	background:#151515;
+	margin: 0 auto;
+}
+header ul li{
+	width: 600px;
+	height: 100%;
+	float: left;	
+}
+header ul li h1{
+	font-size: 32px;
+	line-height: 120px;
+	margin-left: 30px;
+	color: #fff;
+	font-weight: bold;
+	white-space: nowrap;
+}
+header ul li a{
+	display: block;
+	width: 64px;
+	height: 50px;
+	margin: 35px 10px 35px 30px;
+	float: right;
+	line-height: 50px;
+	text-align: center;
+	color:#fff;
+}
+header ul li .tx{
+	color: red;
+}
+header ul li a:hover{
+	color: red;
+}
+/* 头部结束 */
+/* 轮播图 */
+main{
+    width: 100%;
+    height: 550px;
+    cursor: default;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+   	background-image: url('../img/AD0I5LPKBhACGAAg_rbwyAUo3tSL8wcwgA84pgQ.jpg');
+	position: relative;
+}
+
+/* 媒体 */
+.meiti{
+	width: 100%;
+	height: 1069px;
+	background: #131313;
+}
+.meiti .box{
+	width: 1200px;
+	height: 1069px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.meiti .box .xia{
+	width: 100%;
+	height: 465px;
+	margin-top: 160px;
+}
+.meiti .box .xia .top{
+	width: 100%;
+	height: 75px;
+}
+.meiti .box .xia .top h1{
+	float: left;
+	line-height: 75px;
+	font-size: 40px;
+	color: #DEE0E0;
+}
+.meiti .box .xia .top span{
+	float: left;
+	display: block;
+	font-size: 20px;
+	color: #666666;
+	margin: 37.5px 0 0 10px;
+}
+.meiti .box .xia .top nav{
+	width: 400px;
+	height: 75px;
+	float: right;
+}
+.meiti .box .xia .top nav .txa{
+	width: 90px;
+	height: 50px;
+	padding:0  5px;
+	box-sizing: border-box;
+	float: right;
+	margin: 15px 20px 0;
+	color: #666666;
+	text-align: center;
+	line-height: 50px;
+}
+.hot1{
+	border-bottom: 2px solid #F13A3A;
+	color:#F13A3A;
+	cursor:pointer;
+}
+.meiti .box .xia .top nav .txa2{
+	margin-right: 0;
+}
+.dahez{
+	width: 1200px;
+	height: 780px;
+	position: relative;
+}
+.uibox{
+	width: 1200px;
+	height: 780px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.meiti .box .xia ul{
+	width: 100%;
+	height: 390px;
+	display: flex;
+	justify-content: space-between;
+}
+.meiti .box .xia ul li{
+	width: 350px;
+	height: 362px;
+	background:#fff;
+}
+.meiti .box .xia ul li img{
+	width: 350px;
+	height: 199px;
+}
+.meiti .box .xia ul li h3 a{
+	display: block;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #000000;
+	font-weight: normal;
+	margin: 30px 0 30px 20px;
+}
+.meiti .box .xia ul li p{
+	margin: 30px 20px 10px 20px;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	color: #6F6F6F;
+	line-height: 20px;
+}
+.meiti .box1{
+	width: 1200px;
+	height: 16px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.meiti .box1 .hez{
+	width: 47px;
+	height: 8px;
+	background: #A4A4A4;
+	margin-right: 13px; 
+}
+.meiti .box1 .hez1{
+	background: #353535;
+}
+/* 媒体 */
+
+/* 服务项目 */
+.fuwu{
+	width: 100%;
+	height: 2174px;
+	background: #000000;
+}
+.fuwu1{
+	width: 1200px;
+	height: 2174px;
+	background:#000000;
+	margin: 0 auto;
+}
+.fuwu1 .top{
+	width: 1200px;
+	height: 225px;
+	background: #000000;
+	overflow: hidden;
+}
+.fuwu1 .top h1{
+	margin-top: 174px;
+	color: #fff;
+	font-size: 26px;
+	font-family: "微软雅黑";
+	float: left;
+}
+.fuwu1 .top span{
+	margin: 183px 0 0 21px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "微软雅黑";
+	float: left;
+	display: block;
+}
+.fuwu1 .right{
+	width: 1200px;
+	height: 450px;
+	position: relative;
+}
+.fuwu1 .right .box img{
+	width: 450px;
+	height: 299px;
+	z-index: 100;
+	position: absolute;
+}
+.fuwu1 .right .box{
+	width: 450px;
+	height: 299px;
+	float:left;
+	margin: 90px 0 0 0px;
+	z-index: 100;
+	position: relative;
+}
+.fuwu1 .right .box:after{
+	content: "";
+	display: block;
+	width: 150px;
+	height: 129px;
+	background:#131313;
+	position: absolute;
+	bottom: -30px;
+	right: -30px;
+}
+.fuwu1 .right .tx{
+	width: 612px;
+	height: 299px;
+	margin: 90px 0 0 100px;
+	float: left;
+	float: left;
+}
+.fuwu1 .right .tx span{
+	display: block;
+	height: 39px;
+	width: 100%;
+	margin-top: 39px;
+	font-family: 微软雅黑;
+    font-size: 22px;
+    color: #FFFCFC;
+	line-height: 39px;
+}
+.fuwu1 .right .tx p{
+	height: 25px;
+	width: 100%;
+	margin-bottom: 25px;
+	font-family: 微软雅黑;
+    color: #535355;
+    font-size: 12px;
+	line-height: 25px;
+}
+.fuwu1 .right .tx .tx1{
+	height: 100px;
+	width: 612px;
+}
+.fuwu1 .right .tx .tx1 span{
+	height: 100px;
+	font-family: 微软雅黑;
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.8;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
+    text-align: left;
+}
+.fuwu1 .right .tx .tx1 b a{
+	display: block;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: rgb(102, 102, 102);
+}
+/* 服务项目 */
+/* 底部 */
+footer{
+	width: 100%;
+	height: 357px;
+	background: #2B2B2B;
+}
+footer .box{
+	width: 1200px;
+	height: 337px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+footer .box .top{
+	width: 1200px;
+	height: 32px;
+	margin: 48px auto 40px;
+	color: rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+footer .box .center{
+	width: 400px;
+	height: 20px;
+	margin: 0px auto 40px;
+	color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .box .center a{
+	color: rgb(102, 102, 102);
+}
+footer .box .box1 {
+	width: 400px;
+	height: 2px;
+	margin: 0px auto 72px;
+	background: #666666;
+}
+.bottom{
+	width: 100%;
+	height: 22px;
+	color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* 底部 */

@@ -1,0 +1,373 @@
+/*
+* @Author: msi-pc
+* @Date:   2018-05-29 17:54:44
+* @Last Modified by:   msi-pc
+* @Last Modified time: 2018-05-29 19:00:08
+*/
+@import url(base.css);
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 120px;
+	background: #151515;
+}
+header ul{
+	width: 1200px;
+	height: 100%;
+	background:#151515;
+	margin: 0 auto;
+}
+header ul li{
+	width: 600px;
+	height: 100%;
+	float: left;	
+}
+header ul li h1{
+	font-size: 32px;
+	line-height: 120px;
+	margin-left: 30px;
+	color: #fff;
+	font-weight: bold;
+	white-space: nowrap;
+}
+header ul li a{
+	display: block;
+	width: 64px;
+	height: 50px;
+	margin: 35px 10px 35px 30px;
+	float: right;
+	line-height: 50px;
+	text-align: center;
+	color:#fff;
+}
+header ul li .tx{
+	color: red;
+}
+header ul li a:hover{
+	color: red;
+}
+/* 头部结束 */
+
+/* 轮播图 */
+main{
+    width: 100%;
+    height: 550px;
+    cursor: default;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+   	background-image: url('../img/AD0I5LPKBhACGAAgkrjwyAUotbSA8QcwgA84pgQ.jpg');
+	position: relative;
+}
+/* 轮播图 */
+/* 主要成员 */
+.chengyuan{
+	width: 100%;
+	height: 841px;
+	background: #131313;
+	position: relative;
+}
+.chengyuan1{
+	width: 1200px;
+	height: 841px;
+	background: #131313;
+	margin: 0 auto ;
+	overflow: hidden;
+}
+.chengyuan1 .top{
+	width: 1200px;
+	height: 36px;
+	background: #131313 ;
+	margin: 170px auto 145px;
+}
+.chengyuan1 .top h3{
+	font-size: 28px;
+    color: rgb(255, 255, 255);
+    line-height: 36px;
+    float: left;
+}
+.chengyuan1 .top span{
+	display: block;
+	font-size: 15px;
+    color: #333;
+    float: left;
+   	margin: 17px 0 4px 32px;
+}
+.chengyuan1 .bottom{
+	width: 1200px;
+	height: 360px;
+	background: #131313;
+	margin: 170px auto 145px;
+}
+.chengyuan1 .bottom img{
+	width: 215px;
+	height: 300px;
+	float: left;
+	box-shadow: 23px 23px 0 0 #343434;
+}
+.chengyuan1 .bottom .you{
+	width: 900px;
+	height: 100%;
+	float: right;
+}
+.chengyuan1 .bottom .you h3{
+	margin-top: 83px;
+	font-size: 20px;
+    font-family: "微软雅黑";
+    color: rgb(247, 245, 245);
+}
+.chengyuan1 .bottom .you span{
+	display: block;
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color: rgb(122, 123, 123);
+    margin: 10px 0 85px;
+}
+.chengyuan1 .bottom .you p{
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color: rgb(122, 123, 123);
+    font-weight: normal;
+    line-height: 23px;
+}
+
+.chengyuan .xx1{
+	width: 80px;
+	height: 81px;
+	position: absolute;
+	bottom: 300.5px;
+	left: 50%;
+	background:#2B2B2B;
+	margin-left: -695px;
+	font-size: 40px;
+	line-height: 71px;
+	text-align: center;
+	color: #fff;
+}
+.chengyuan .xx1:hover{
+	cursor:pointer;
+}
+.chengyuan .xx2{
+	width: 80px;
+	height: 81px;
+	position: absolute;
+	bottom: 300.5px;
+	left: 50%;
+	background:#2B2B2B;
+	margin-left: 612px;
+	font-size: 40px;
+	line-height: 71px;
+	text-align: center;
+	color: #fff;
+}
+.chengyuan .xx2:hover{
+	cursor:pointer;
+}
+/* 主要成员 */
+/* 营销 */
+.yingxiao{
+	width: 100%;
+	height: 583px;
+	background: #131313;
+	position: relative;
+	overflow: hidden;
+}
+.yingxiao1{
+	width: 1200px;
+	height: 583px;
+	background: #131313;
+	margin: 0 auto ;
+
+}
+.yingxiao1 .left{
+	width: 430px;
+	height: 583px;
+	background: red;
+	float: left;
+	position: relative;
+}
+.yingxiao1 .left img{
+	width: 713px;
+	height: 583px;
+	background: contain cover;
+	position: absolute;
+	top: 0;
+	left: -150px;
+}
+.yingxiao1 .right{
+	width: 770px;
+	height: 583px;
+	position: relative;
+	float: right;
+}
+.yingxiao1 .right .hez1{
+	width: 92px;
+	height: 583px;
+	float: left;
+}
+.yingxiao1 .right .hez2{
+	width: 678px;
+	height: 583px;
+	float: right;
+	background: #000000;
+}
+.yingxiao1 .right .hez3{
+	width: 770px;
+	height: 428px;
+	background: #131313;
+	position: absolute;
+	right: 0;
+	top: 77.5px;
+	padding-left: 208px;
+	box-sizing: border-box;
+}
+.yingxiao1 .right .hez3 .tt{
+	width: 562px;
+	height: 428px;
+	overflow: hidden;
+}
+.yingxiao1 .right .hez3 .tt h3{
+	height: 37px;
+	width: 100%;
+	font-size: 28px;
+	color: rgb(247, 245, 245);
+	margin-top: 70px;
+	line-height: 37px;
+}
+.yingxiao1 .right .hez3 .tt span{
+	display: block;
+	height: 27px;
+	width: 100%;
+	font-size: 15px;
+	color: rgb(83, 83, 83);
+	line-height: 27px;
+	margin-bottom: 27px;
+}
+.yingxiao1 .right .hez3 .tt p{
+	height: 80px;
+	width: 481px;
+	font-size: 14px;
+	color: rgb(83, 83, 83);
+	line-height: 27px;
+	margin-bottom: 80px;
+}
+.yingxiao2{
+	width: 500px;
+	height: 100%;
+	margin-left: 600px;
+	position: absolute;
+	top: 0;
+	left:50%;
+	background: yellow;
+}
+.yingxiao2 .oo1{
+	width: 500px;
+	height: 77.5px;
+	background: #000000;
+}
+.yingxiao2 .oo2{
+	width: 500px;
+	height: 428px;
+	background: #131313;
+}
+.yingxiao2 .oo3{
+	width: 500px;
+	height: 77.5px;
+	background: #000000;
+}
+/* 营销 */
+.lala{
+	width: 100%;
+	height: 299px;
+	background: #131313;
+}
+.lala ul{
+	width: 1200px;
+	height: 299px;
+	background: #131313;
+	margin: 0 auto;
+}
+.lala ul li{
+	width: 25%;
+	height: 88px;
+	box-sizing: border-box;
+	border-right: 1px solid #777878;
+	float: left;
+	margin-top: 105.5px;
+}
+.lala ul li h4{
+	width: 100%;
+	height: 54px;
+	color: rgb(185, 185, 185);
+    font-size: 40px;
+    font-family: "微软雅黑"; 
+    text-align: center;
+    line-height: 54px;
+}
+.lala ul li b{
+	display: block;
+	width: 100%;
+	height: 34px;
+	color:rgb(102, 102, 102);
+	font-size: 12px;
+    font-family: "微软雅黑"; 
+    text-align: center;
+    line-height: 34px;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 357px;
+	background: #2B2B2B;
+}
+footer .box{
+	width: 1200px;
+	height: 337px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+footer .box .top{
+	width: 1200px;
+	height: 32px;
+	margin: 48px auto 40px;
+	color: rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+footer .box .center{
+	width: 400px;
+	height: 20px;
+	margin: 0px auto 40px;
+	color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .box .center a{
+	color: rgb(102, 102, 102);
+}
+footer .box .box1 {
+	width: 400px;
+	height: 2px;
+	margin: 0px auto 72px;
+	background: #666666;
+}
+.bottom{
+	width: 100%;
+	height: 22px;
+	color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* 底部 */
